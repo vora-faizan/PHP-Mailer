@@ -85,13 +85,13 @@ else
  $mail->isSMTP();                                      // Set mailer to use SMTP
  $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
  $mail->SMTPAuth = true;                               // Enable SMTP authentication
- $mail->Username   = 'faizanvohra382@gmail.com';                     //SMTP username
- $mail->Password   = 'Faizan@420';                         // SMTP password
+ $mail->Username   = ' Your email';                     //SMTP username
+ $mail->Password   = 'Email Password';                         // SMTP password
  $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
  $mail->Port = 587;
    
-             $mail->setfrom('faizanvohra382@gmail.com', 'SaveMyPool');             
-             $mail->addaddress('faizanvora.anskeytechnology@gmail.com'); // first email address
+             $mail->setfrom('email ', 'SaveMyPool');             
+             $mail->addaddress('receiver email'); // first email address
             //  $mail->addAddress('');
              // second email address
               // second email address
